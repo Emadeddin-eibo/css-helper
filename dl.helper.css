@@ -7,7 +7,7 @@ Helper Stylesheet
                     Written by Emadeddin Eibo.
 
 	Author URL:     https://www.facebook.com/eibo.emadeddin
-	Version:        1.4
+	Version:        1.5
 
 
 ---------------------------------------------------------------------------------*/
@@ -18,7 +18,6 @@ Helper Stylesheet
     position: relative;
     padding: 50px 0
 }
-
 
 .dl-section-60 {
     position: relative;
@@ -59,10 +58,12 @@ Helper Stylesheet
     position: relative;
     padding: 130px 0
 }
+
 .dl-section-140 {
     position: relative;
     padding: 140px 0
 }
+
 .dl-section-150 {
     position: relative;
     padding: 150px 0
@@ -602,10 +603,45 @@ Helper Stylesheet
 
 /* endregion */
 
-@media only screen and (min-width: 1200px) {
-    
-    /* region NO MARGINS */
+/* region GRADIENTS */
+/* colors taken from: https://uigradients.com */
 
+.dl-gradient-citrus {
+    background: #FDC830; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.dl-gradient-blue{
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dl-gradient-evening-night{
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right bottom, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right bottom, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dl-gradient-vanusa{
+    background: #DA4453;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dl-gradient-man-of-steel{
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right bottom, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right bottom, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* endregion */
+
+@media only screen and (min-width: 1200px) {
+
+    /* region NO MARGINS */
     .dl-lg-m-no {
         margin: 0 !important
     }
@@ -627,9 +663,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region TOP MARGINS */
-
     .dl-lg-mt-10 {
         margin-top: 10px
     }
@@ -691,9 +725,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region BOTTOM MARGINS */
-
     .dl-lg-mb-10 {
         margin-bottom: 10px
     }
@@ -755,9 +787,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region NO PADDINGS */
-
     .dl-lg-p-no {
         padding: 0 !important
     }
@@ -779,9 +809,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region TOP PADDINGS */
-
     .dl-lg-pt-10 {
         padding-top: 10px
     }
@@ -843,9 +871,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region BOTTOM PADDINGS */
-
     .dl-lg-pb-10 {
         padding-bottom: 10px
     }
@@ -910,9 +936,8 @@ Helper Stylesheet
 }
 
 @media only screen and (min-width: 992px) {
-    
-    /* region NO MARGINS */
 
+    /* region NO MARGINS */
     .dl-md-m-no {
         margin: 0 !important
     }
@@ -934,9 +959,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region TOP MARGINS */
-
     .dl-md-mt-10 {
         margin-top: 10px
     }
@@ -998,9 +1021,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region BOTTOM MARGINS */
-
     .dl-md-mb-10 {
         margin-bottom: 10px
     }
@@ -1062,9 +1083,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region NO PADDINGS */
-
     .dl-md-p-no {
         padding: 0 !important
     }
@@ -1086,9 +1105,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region TOP PADDINGS */
-
     .dl-md-pt-10 {
         padding-top: 10px
     }
@@ -1150,9 +1167,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region BOTTOM PADDINGS */
-
     .dl-md-pb-10 {
         padding-bottom: 10px
     }
@@ -1219,7 +1234,6 @@ Helper Stylesheet
 @media only screen and (min-width: 768px) {
 
     /* region NO MARGINS */
-
     .dl-sm-m-no {
         margin: 0 !important
     }
@@ -1241,9 +1255,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region TOP MARGINS */
-
     .dl-sm-mt-10 {
         margin-top: 10px
     }
@@ -1305,9 +1317,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region BOTTOM MARGINS */
-
     .dl-sm-mb-10 {
         margin-bottom: 10px
     }
@@ -1369,9 +1379,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region NO PADDINGS */
-
     .dl-sm-p-no {
         padding: 0 !important
     }
@@ -1393,9 +1401,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region TOP PADDINGS */
-
     .dl-sm-pt-10 {
         padding-top: 10px
     }
@@ -1457,9 +1463,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region BOTTOM PADDINGS */
-
     .dl-sm-pb-10 {
         padding-bottom: 10px
     }
@@ -1524,9 +1528,8 @@ Helper Stylesheet
 }
 
 @media only screen and (max-width: 767px) {
-    
-    /* region NO MARGINS */
 
+    /* region NO MARGINS */
     .dl-xs-m-no {
         margin: 0 !important
     }
@@ -1548,9 +1551,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region TOP MARGINS */
-
     .dl-xs-mt-10 {
         margin-top: 10px
     }
@@ -1612,9 +1613,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region BOTTOM MARGINS */
-
     .dl-xs-mb-10 {
         margin-bottom: 10px
     }
@@ -1676,9 +1675,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region NO PADDINGS */
-
     .dl-xs-p-no {
         padding: 0 !important
     }
@@ -1700,9 +1697,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region TOP PADDINGS */
-
     .dl-xs-pt-10 {
         padding-top: 10px
     }
@@ -1764,9 +1759,7 @@ Helper Stylesheet
     }
 
     /* endregion */
-
     /* region BOTTOM PADDINGS */
-
     .dl-xs-pb-10 {
         padding-bottom: 10px
     }

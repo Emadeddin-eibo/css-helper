@@ -1,0 +1,21 @@
+/* NOTE: This file is for demo purposes only, you don't need it in your project */
+
+.card{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    text-align: justify;
+    min-height: 120px;
+}
+
+button{
+    margin-left: 10px;
+}
+
+.dl-white p,.dl-white h4{
+    color: #fff!important;
+}
